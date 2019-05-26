@@ -1,0 +1,24 @@
+//
+//  Staging.xcconfig
+//  DemoConfig
+//
+//  Created by Gaurang Lathiya on 26/05/19.
+//  Copyright © 2019 Gaurang Lathiya. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-DemoConfig/Pods-DemoConfig.debug (staging).xcconfig"
+#include "Pods/Target Support Files/Pods-DemoConfig/Pods-DemoConfig.release (staging).xcconfig"
+
+// Staging.xcconfig
+// Server URL
+ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
+
+// Keys
+API_KEY = 89dhdyd93380dkqmoe_hd830dhq
+
+// App Settings
+APP_NAME = MyTestApp (staging)
+APP_BUNDLE_ID = com.thoughtbot.MyTestApp.staging
