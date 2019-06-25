@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         print(Environment.apiKey)
         print(Environment.rootURL.absoluteString)
+        print("View Controller Changes...")
     }
 
 
